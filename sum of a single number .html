@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+<script type="text/javascript">
+	var a, b, ones, tens;
+	a = prompt("Enter two digit a Number");
+
+	if (a>=10 && a<=99) {
+		ones = Math.floor(a/10)
+		tens = a % 10
+
+	b = ones + tens
+	document.write(b)
+	}
+	else
+	{
+	document.write("You entered number should be three digit or more !!")
+	}
+	
+
+</script>
+</body>
+</html>
